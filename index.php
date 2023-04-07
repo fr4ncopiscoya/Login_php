@@ -14,32 +14,28 @@
         <span>LOS DATOS SON INCORRECTOS, INTÉNTE OTRA VEZ </span>
     </div>
     <div class="main">
-        <!-- <div class="datos">
-            <p>Correo</p>
-            <p>Contraseña</p>
-            <p>ENVIAR</p>
-        </div> -->
         <form action="" method= "POST" id="form">
             <div class="form">
-                <h1>REGISTRARSE</h1>
+                <h1>Iniciar Sesión</h1>
                 <!-- <div class="group">
                     <input type="text" name= "namelgl" id= "nombre" required > <span class= "barra"></span>
                     <label for="">NOMBRE</label>
                 </div> -->
                 <div class="group">
-                    <input type="text" name= "usuariolg" id= "email" required plac > <span class= "barra"></span>
+                    <input type="email" name= "usuariolg" id= "email" required > <span class= "barra"></span>
                     <label for="">EMAIL</label>
                 </div>
                 <div class="group">
-                    <input type="password" name= "passlg" id= "pass"  required > <span class= "barra"></span>
+                    <input type="password" name= "passlg" id= "pass" required > <span class= "barra"></span>
                     <label for="">PASSWORD</label>
                 </div>
-                <input type="submit" class= "btnlg" value = "Iniciar Sesión">
-                <p class="warning" id="warning"></p>
+                <input type="submit" class= "btnlg" value = "Enviar">
+                <p class = reg >No tienes una cuenta?</p>
+                <a class= "link" href="http://localhost/Login/registro.php">Registrate Aquí</a>
             </div>
         </form>
         <!-- <input type="password" name= "passlg" placeholder = "Contraseña" required >
         <input type="submit" class= "btnlg" value = "Iniciar Sesión" > -->
-    </body>
-    <script src="http://localhost/Login/js/main.js"></script>
-    </html>
+</body>
+<script src="http://localhost/Login/js/main.js"></script>
+</html>

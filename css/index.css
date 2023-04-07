@@ -54,7 +54,7 @@ form{
 
 input{
     background: none;
-    color: #c6c6c6;
+    /* color: #c6c6c6; */
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -66,6 +66,7 @@ input{
 input:focus{
     outline: none;
     color: #000;
+    background-color: none;
 }
 
 label{
@@ -81,11 +82,21 @@ label{
     pointer-events: none;
 }
 
+.reg{
+    text-align: center;
+}
+
+.link{
+    justify-content: center;
+    align-items: center;
+    margin: 7rem;
+}
+
 input:focus~label,
 input:valid~label{
     top: -14px;
-    font-size: 12px;
-    color: #1565C0;
+    font-size: 11px;
+    background: none;
 }
 
 .barra{
@@ -135,10 +146,6 @@ input:focus~.barra::before{
     -moz-transition: 0.3s ease;
     -ms-transition: 0.3s ease;
     -o-transition: 0.3s ease;
-}
-
-
-.error{
 }
 
 .warning{

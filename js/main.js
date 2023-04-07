@@ -1,5 +1,9 @@
 jQuery(document).on('submit', '#form',function(event){
     event.preventDefault();
+    $nombre = "namelgl";
+    $dni = "dnilg";
+    $usuario = "usuariolg";
+    $password = "passlg";
 
     jQuery.ajax({
         url:'main/login.php',
@@ -13,10 +17,10 @@ jQuery(document).on('submit', '#form',function(event){
     .done(function(respuesta){
         console.log(respuesta);
         if(!respuesta.error){
-            if(respuesta.tipo == 'Admin'){
-                location.href='main/admin/admin.php/';
-            } else if(respuesta.tipo == 'Usuario'){
-                location.href = 'main/usuario/usuario.php/';
+            if(respuesta.tipo = $usuario , $password){
+                location.href='http://localhost/Login/main/usuario/usuario.php';
+            } else{
+            //    nada xd
             }
         }else{
             $('.error').slideDown('slow');
