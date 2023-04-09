@@ -35,7 +35,7 @@
                 </div>
                 <input type="submit" class= "btnrg btnlg" value = "Enviar">
                 <p class = reg >Ya tienes una cuenta?</p>
-                <a class= "link" href="http://localhost/Login/index.php">Ingresa Aquí</a>
+                <a class= "link" href="http://localhost/Login/inicio/index.php">Ingresa Aquí</a>
             </div>
         </form>
         <!-- <input type="password" name= "passlg" placeholder = "Contraseña" required >

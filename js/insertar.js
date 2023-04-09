@@ -6,7 +6,7 @@ jQuery(document).on('submit', '#form',function(event){
     $password = "passrg";
 
     jQuery.ajax({
-        url:'main/insertar.php',
+        url:'http://localhost/Login/main/insertar.php',
         type:'POST',
         dataType: 'json',
         data: $(this).serialize(),
@@ -18,7 +18,7 @@ jQuery(document).on('submit', '#form',function(event){
         console.log(respuesta);
         if(!respuesta.error){
             if(respuesta.tipo =$nombre,$dni, $usuario , $password){
-                location.href='http://localhost/Login/index.php';
+                location.href='http://localhost/Login/inicio/index.php';
             } else{
             //    nada xd
             }

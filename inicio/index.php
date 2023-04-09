@@ -1,3 +1,17 @@
+<!-- <?php
+session_start();
+
+
+if(isset($_SESSION['user'])){
+    if($_SESSION['user'] = "'$usuariolg' and '$passwordlg'"){
+        header("http://localhost/Login/usuario/usuario.php");
+    }
+}
+?> -->
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,7 +28,7 @@
         <span>LOS DATOS SON INCORRECTOS, INTÉNTE OTRA VEZ </span>
     </div>
     <div class="main">
-        <form action="" method= "POST" id="form">
+        <form action="http://localhost/Login/main/logear.php" method= "POST" id="form">
             <div class="form">
                 <h1>Iniciar Sesión</h1>
                 <!-- <div class="group">
@@ -31,7 +45,7 @@
                 </div>
                 <input type="submit" class= "btnlg" value = "Enviar">
                 <p class = reg >No tienes una cuenta?</p>
-                <a class= "link" href="http://localhost/Login/registro.php">Registrate Aquí</a>
+                <a class= "link" href="http://localhost/Login/inicio/registro.php">Registrate Aquí</a>
             </div>
         </form>
         <!-- <input type="password" name= "passlg" placeholder = "Contraseña" required >

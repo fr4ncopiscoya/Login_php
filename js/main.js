@@ -6,7 +6,7 @@ jQuery(document).on('submit', '#form',function(event){
     $password = "passlg";
 
     jQuery.ajax({
-        url:'main/login.php',
+        url:'http://localhost/Login/main/login.php',
         type:'POST',
         dataType: 'json',
         data: $(this).serialize(),
@@ -18,7 +18,7 @@ jQuery(document).on('submit', '#form',function(event){
         console.log(respuesta);
         if(!respuesta.error){
             if(respuesta.tipo = $usuario , $password){
-                location.href='http://localhost/Login/main/usuario/usuario.php';
+                location.href='http://localhost/Login/usuario/usuario.php';
             } else{
             //    nada xd
             }
