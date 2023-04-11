@@ -1,13 +1,13 @@
-<!-- <?php
+<?php
 session_start();
 
 
-if(isset($_SESSION['user'])){
-    if($_SESSION['user'] = "'$usuariolg' and '$passwordlg'"){
-        header("http://localhost/Login/usuario/usuario.php");
-    }
-}
-?> -->
+// if(isset($_SESSION['user'])){
+//     if($_SESSION['user'] = $usuariolg){
+//         header("http://localhost/Login/usuario/usuario.php");
+//     }
+// }
+?>
 
 
 

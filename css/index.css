@@ -157,8 +157,19 @@ input:focus~.barra::before{
 }
 
 
+
+/* USUARIO.CSS */
+
+
 @media (max-width: 470px){
     .form{
         width: 80%;
     }
+
+    .link{
+        justify-content: center;
+        align-items: center;
+        margin: 5rem;
+    }
+
 }
