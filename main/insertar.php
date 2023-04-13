@@ -8,12 +8,12 @@ $usuario = $_POST['usuariorg'];
 $password = $_POST['passrg'];
 
 if(repe($usuario,$password,$conexion)==1){
-    echo 2;
+    header("location: http://localhost/Login/inicio/registro.php");
 }else{
     $insertar = "INSERT INTO usuarios (Nombre,Dni,Usuario,Pass) VALUES('$nombre','$dni','$usuario', '$password')";
     echo mysqli_query($conexion,$insertar);
+    header("location: http://localhost/Login/inicio/index.php");
 }
-
 
 
 function repe($user,$pass,$conexion){

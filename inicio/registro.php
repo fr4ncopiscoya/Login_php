@@ -14,7 +14,7 @@
         <span>NO SE PUDO REGISTRAR</span>
     </div>
     <div class="main">
-        <form action="" method= "POST" id="form">
+        <form action="http://localhost/Login/main/insertar.php" method= "POST" id="form">
             <div class="form">
                 <h1>Registrarse</h1>
                 <div class="group">
@@ -37,6 +37,7 @@
                 <p class = reg >Ya tienes una cuenta?</p>
                 <a class= "link" href="http://localhost/Login/inicio/index.php">Ingresa Aquí</a>
             </div>
+            <p class = doble >Este usuario ya está registrado</p>
         </form>
         <!-- <input type="password" name= "passlg" placeholder = "Contraseña" required >
         <input type="submit" class= "btnlg" value = "Iniciar Sesión" > -->
