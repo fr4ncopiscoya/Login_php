@@ -11,8 +11,13 @@ $_SESSION['usuario'] = $usuario;
     $filas = mysqli_num_rows($resultado);
 
     if($filas>0){
-        header("location:http://localhost/Login/usuario/usuario.php");
+        echo '<script> alert("Verificado");
+        location.href="http://localhost/Login/usuario/usuario.php";
+        </script>';
     }else{
-        echo "datos incorrectos";
+        echo '<script> alert("DATOS INCORRECTOS");
+        location.href="http://localhost/Login/inicio/index.php";
+        </script>';
+        // header("location: http://localhost/Login/inicio/index.php");
     }
 ?>

@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="http://localhost/Login/css/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <title>Document</title>
     </head>
 
@@ -37,7 +38,7 @@
                 <p class = reg >Ya tienes una cuenta?</p>
                 <a class= "link" href="http://localhost/Login/inicio/index.php">Ingresa Aquí</a>
             </div>
-            <p class = doble >Este usuario ya está registrado</p>
+            <p class = doble ></p>
         </form>
         <!-- <input type="password" name= "passlg" placeholder = "Contraseña" required >
         <input type="submit" class= "btnlg" value = "Iniciar Sesión" > -->

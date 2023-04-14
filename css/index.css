@@ -168,7 +168,7 @@ input:focus~.barra::before{
 /* USUARIO.CSS */
 
 
-@media (max-width: 470px){
+@media (max-width: 410px){
     .form{
         width: 80%;
     }
@@ -176,7 +176,7 @@ input:focus~.barra::before{
     .link{
         justify-content: center;
         align-items: center;
-        margin: 5rem;
+        margin: 4.5rem;
     }
 
 }
